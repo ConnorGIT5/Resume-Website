@@ -24,6 +24,10 @@ a:hover {
 
 /* NAV BAR!  NAV BAR!  NAV BAR!  NAV BAR!  NAV BAR!  NAV BAR!  NAV BAR!  NAV BAR! */
 
+@media screen and (max-width: 600px) {
+    #nav_ul {float: none;}
+  }
+
 #nav_div {
     position: fixed;
     width: 100%;
