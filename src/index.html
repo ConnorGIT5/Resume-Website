@@ -6,6 +6,7 @@
     <title>Connor's Resume</title>
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="stylesheet" href="styles.css">
+    <script defer src="activePage.js"></script> <!-- will load after the body loads -->
 </head>
 <body>
 
@@ -15,8 +16,9 @@
                 <li id = "nav_li"><a href="index.html" id = nav_a>Resume</a></li>
                 <li id = "nav_li"><a href="projects.html" id = nav_a>Projects: In Depth</a></li>
                 <li id = "nav_li"><a href="resume.html" id = nav_a>Single Page Resume (For Printing)</a></li>
+                <li id = "nav_li" style="float:right"><a href="about.html" id = nav_a>About</a></li>
             </ul>    
-    </header>
+         </header>
     </div>
 
     <br><br>
@@ -53,42 +55,49 @@
         <hr>
         <strong>Heartland Theater Company CRM-Like Program (Team of 6)</strong>
         <br><strong>Project Objective:</strong> Develop a user-friendly interface to manage the customers of Heartland Theater Company.
-        Used Excel functions to fix excel data. Fixed Excel sheets were made into tables in Microsoft SQL Server.
-        Developed the front-end using ASPX pages: <a href="https://github.com/ConnorGIT5/Projects/blob/main/Front-end%20Cust%20Search.png">link to GitHub</a>
-        Developed a method to query data in Visual Basic: <a href="https://github.com/ConnorGIT5/Projects/blob/main/SQL%20query%20vb%20Concat.png">link to GitHub</a>
-        <br><br>
+        <ul>
+            <li>Used Excel functions to fix excel data. Fixed Excel sheets were made into tables in Microsoft SQL Server.</li>
+            <li>Developed the front-end using ASPX pages: <a href="https://github.com/ConnorGIT5/Projects/blob/main/Front-end%20Cust%20Search.png">link to GitHub</a></li>
+            <li>Developed a method to query data in Visual Basic: <a href="https://github.com/ConnorGIT5/Projects/blob/main/SQL%20query%20vb%20Concat.png">link to GitHub</a></li>
+        </ul>
+        <br>
         <strong>Sage 100 Backup Program (Solo Project)</strong>
         <br><strong>Project Object:</strong> Create a daily and working backup for my company to restore from for disaster recovery.
-        Created a powershell script to save monthly and daily backing of the working Sage 100 directory. The daily backup directory stores backups only up to 30 days, and the monthly backup directory stores backups up to 4 months.
+        <ul>
+            <li>Created a powershell script to save monthly and daily backing of the working Sage 100 directory.</li> 
+            <li>The daily backup directory stores backups only up to 30 days, and the monthly backup directory stores backups up to 4 months.</li>
+        </ul>
 
         <h2 id="completed_certifications">Completed Certifications</h2>
         <hr>
-
-        Azure Fundamentals (AZ-900)
-        Currently Studying: CompTIA Security+
-        Certified Scrum Master
-        Hubspot SEO
-        QuickBooks Online ProAdvisor
-
+        
+        <ul>
+            <li>Azure Fundamentals (AZ-900)</li>
+            <li>Currently Studying: CompTIA Security+</li>
+            <li>Certified Scrum Master</li>
+            <li>Hubspot SEO</li>
+            <li>QuickBooks Online ProAdvisor</li>
+        </ul>
         <!-- snooping around my code? -->
         <h2 id="technical_skills">Technical Skills</h2>
         <hr>
 
-        ASP.NET MVC / Razor Pages / EF CORE
-        SQL DDL, DML, DCL, TCL commands
-        C++ Vectors, OOP,  Vi, Unix
-        Git and Github
-        Go programming, pointers, slices, maps, structs, Modules, Packages, & Goroutines
-        Docker 
-        REST API’s and Insomnia
-        Excel, MS Office
-        React and React Router
+        <ul>
+            <li>ASP.NET MVC / Razor Pages / EF CORE</li>
+            <li>SQL DDL, DML, DCL, TCL commands</li>
+            <li>Relational Database design using ERDPLUS.com</li>
+            <li>C++ Vectors, OOP,  Vi, Unix</li>
+            <li>Git and Github</li>
+            <li>Go programming, pointers, slices, maps, structs, Modules, Packages, & Goroutines</li>
+            <li>Docker and Containers in Azure</li>
+            <li>React and React Router</li>
+            <li>REST API’s and Insomnia</li>
+            <li>Excel, MS Office</li>
+        </ul>
 
-
-        Relational Database design using ERDPLUS.com
-
-        </div>
     <footer><br><br><br><br><br>&copy Connor Rowe 2024</footer>
+    </div>
+
 </body>
 </html>
 

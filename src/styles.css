@@ -59,3 +59,11 @@ a:hover {
     color: rgb(10, 220, 248);
 }
 
+#nav_li:hover:not(.active) {
+    background-color: #111;
+  }
+
+.active {
+    background-color: #202020;
+  }
+  
