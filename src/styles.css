@@ -2,6 +2,7 @@ body {
     background-color: rgb(214, 235, 240);
     font-family: Arial;
 }
+
 a:visited {
     text-decoration: none;
 }
@@ -16,3 +17,29 @@ a:hover {
     text-decoration: underline;
   }
 
+/* NAV BAR!  NAV BAR!  NAV BAR!  NAV BAR!  NAV BAR!  NAV BAR!  NAV BAR!  NAV BAR! */
+
+#nav_ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+#nav_li {
+    float: left;
+}
+  
+#nav_a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+  #nav_a:hover {
+    background-color: #111111;
+    color: rgb(10, 220, 248);
+}
