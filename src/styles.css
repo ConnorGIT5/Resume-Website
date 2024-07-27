@@ -1,6 +1,6 @@
 body {
     background-color: rgb(255, 255, 255);
-    font-family: Arial;
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
     margin: 0;
 }
 
@@ -17,7 +17,7 @@ a:active {
 }
 
 a:hover {
-    color: rgb(10, 220, 248);
+    color: cyan;
     background-color: transparent;
     text-decoration: underline;
   }
@@ -68,14 +68,14 @@ a:hover {
     background-color: #202020;
   }
   
-  .picture_and_name {
+ .picture_and_name {
     
     margin-top: 200px;
     margin-bottom: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+}
 
 .profile_div {
     padding-right: 20px;
@@ -88,7 +88,39 @@ a:hover {
 .name_info {
    padding-left: 20px;
    text-align: center;
-   
+   color: rgb(80, 80, 80);
+}
+.name_info h1 {
+    font-size: 50px;
+}
+.name_info h2 {
+    font-size: 20px;
+}
+.name_info h4 {
+    margin: 0px;
+}
+.name_info button {
+    padding: 15px;
+    border-radius: 20px;
+    background-color: white;
+}
+.name_info button:hover {
+    background-color: cyan;
+    cursor: pointer;
+    box-shadow: 0px 0px 6px 0px #888888;
+}
+
+.name_info button:active {
+    box-shadow: 0px 0px 6px 0px #888888 inset;
+    transform: translateY(2px);
+}
+
+.name_info img:hover {
+    cursor: pointer;
+}
+
+.name_info img:active {
+    transform: translateY(3px);
 }
 
   @media (max-width: 750px) {
@@ -97,8 +129,7 @@ a:hover {
     }
   }
 
-
   .picture_and_name button {
-    border-radius: 20px;
-    background-color: white;
+
+
   }
