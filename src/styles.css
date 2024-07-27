@@ -91,6 +91,9 @@ a:hover {
    text-align: center;
    color: rgb(80, 80, 80);
 }
+.name_info p {
+    margin: 10px;
+}
 
 #info_hello {
     font-size: 20px;
@@ -100,13 +103,16 @@ a:hover {
 }
 #info_title {
     font-size: 25px;
+    margin-bottom: 40px;
+  
 }
 
 .name_info button {
-    padding: 15px;
+    padding: 10px;
+    margin: 5px;
     border-radius: 20px;
     background-color: white;
-    font-size: 14px;
+    font-size: 16px;
     color: rgb(80, 80, 80);
 }
 .name_info button:hover {
