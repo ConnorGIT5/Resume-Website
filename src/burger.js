@@ -5,4 +5,5 @@ function myBurgerFunction() {
   } else {
     x.className = "topnav";
   }
+  document.getElementById("aboutref").style.float = "none";
 }
