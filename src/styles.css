@@ -20,7 +20,6 @@ a:hover {
     text-decoration: underline;
   }
 
-
 /* NAV BAR!  NAV BAR!  NAV BAR!  NAV BAR!  NAV BAR!  NAV BAR!  NAV BAR!  NAV BAR! */
 
 .topnav {
@@ -29,7 +28,6 @@ a:hover {
     top: 0; 
     background-color: black;
 }
-
 .topnav a {
     float: left;
     display: block;

@@ -1,125 +1,66 @@
 <!DOCTYPE html>
 <html lang="en-US">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Connor - Portfolio</title>
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
 
-    <script defer src="activePage.js"></script> <!-- will load after the body loads -->
+    <script defer src="activePage.js"></script>
+    <!-- will load after the body loads -->
     <script src="burger.js"></script>
-
-</head>
-<body>
-
+  </head>
+  <body>
     <div class="topnav" id="myTopnav">
-        <a href="index.html">Home</a>
-        <a href="experience.html">Experience</a>
-        <a href="projects.html">Projects</a>
-        <a href="contact.html">Contact</a>
-        <a href="about.html" style="float: right" id="aboutref">About</a>
-        <a href="javascript:void(0);" class="icon" onclick="myBurgerFunction()">
+      <a href="index.html">Home</a>
+      <a href="experience.html">Experience</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+      <a href="about.html" style="float: right" id="aboutref">About</a>
+      <a href="javascript:void(0);" class="icon" onclick="myBurgerFunction()">
         <i class="fa fa-bars"></i>
-        </a>
+      </a>
     </div>
 
-    <br><br><br>    <h1>test 2</h1>
+    <br /><br /><br />
+    <h1>test 3</h1>
 
-    <div class="picture_and_name"> 
-        <div class="profile_div">
-            <img src="images/picture1.jpg" alt="main profile picture">
-        </div>
-        <div class="name_info">
-            <p id="info_hello"><bold>Hello</bold>, I'm</p>
-            <p id="info_name">Connor Rowe</p>
-            <p id="info_title">Aspiring data and software professional</p>
-            <p>
-                <a href="etc_files/ConnorRowe.docx" download="ConnorRoweResume"><button>Download Resume</button></a>
-                <a href="contact.html"><button>Contact Info</button></a>
-            </p>
-            <p> 
-                <a href="https://www.linkedin.com/in/crowe11/"><img src="icons/linkedin.jpg" alt="go_to_linkedin" style="width: 50px"></a>
-                <a href="https://github.com/ConnorGIT5"><img src="icons/GitHub-logo.png" alt="go_to_github" style="width: 75px"></a>
-            </p>
-        </div>
+    <div class="picture_and_name">
+      <div class="profile_div">
+        <img src="images/picture1.jpg" alt="main profile picture" />
+      </div>
+      <div class="name_info">
+        <p id="info_hello"><bold>Hello</bold>, I'm</p>
+        <p id="info_name">Connor Rowe</p>
+        <p id="info_title">Aspiring data and software professional</p>
+        <p>
+          <a href="etc_files/ConnorRowe.docx" download="ConnorRoweResume"
+            ><button>Download Resume</button></a
+          >
+          <a href="contact.html"><button>Contact Info</button></a>
+        </p>
+        <p>
+          <a href="https://www.linkedin.com/in/crowe11/"
+            ><img
+              src="icons/linkedin.jpg"
+              alt="go_to_linkedin"
+              style="width: 50px"
+          /></a>
+          <a href="https://github.com/ConnorGIT5"
+            ><img
+              src="icons/GitHub-logo.png"
+              alt="go_to_github"
+              style="width: 75px"
+          /></a>
+        </p>
+      </div>
     </div>
-
-        <h1>Connor Rowe</h1>
-        <p title="general info"><pre>carowe975@gmail.com     (224) 856-8242     <a href="https://www.linkedin.com/in/crowe11/">LinkedIn</a></pre>  </p>
-
-        <h2 id="education">Education</h2>
-        <hr>
-        <strong>B.S. Business Information Systems</strong> | Illinois State University | August 2019 - May 2023 |  Cumulative GPA: 3.20
-        <br><small><pre>-  Association for Information Systems (AIS) Cybersecurity Challenge Finalist |  Spring ‘23</pre></small>
-        <strong>Harper College</strong> - Palatine, IL |  February 2024 - Current
-        <br><small><pre>-  Taking extra courses in computer science and IT. Enrolled in: <a href="https://www.harpercollege.edu/catalog/current/courses/csc.php#CSC-121">CSC 121</a>
-            planned: <a href="https://www.harpercollege.edu/catalog/current/courses/csc.php#CSC-214">CSC 214</a>, <a href="https://www.harpercollege.edu/catalog/current/courses/csc.php#CSC-122">CSC 122</a>, <a href="https://www.harpercollege.edu/catalog/current/courses/csc.php#CSC-216">CSC 216</a>, <a href="https://www.harpercollege.edu/catalog/current/courses/csc.php#CSC-217">CSC 217</a></pre></small> 
-
-        <h2 id="work_experience">Work Experience</h2>
-        <hr>
-        <ins>Data Migrator & IT Support</ins>, <strong>DL & Associates - Woodfield, IL</strong>  |  June 2023 - Feb 2024
-        <br>
-        <ul>
-            <li>Convert entire company financial data (AP, AR, Income Statements, Balance Sheets, customers, vendors, items, chart of accounts, etc) to match their old system.</li>
-            <li>Notable conversions I have completed:</li>
-                <ul>
-                    <li>Sage Business Works to QuickBooks Enterprise Canada Edition (extracting meaningful data from Sage)</li>
-                    <li>AP to QuickBooks Enterprise 23 (9 years of detailed GL transferred to QuickBooks  Enterprise)
-                    <li>QuickBooks Online to QuickBooks Desktop (entire company migration) & vise-versa for many other companies</li>
-                    <li>QuickBooks Enterprise to QuickBooks Enterprise (whole company rebuild)</li>
-                </ul>        
-            <li>Troubleshooting problems with Hyper-V, bug testing company programs, reviewing security requirements Intuit’s security assessments for our new company apps, saving useful Excel functions, and performing live data transfers.</li>
-        </ul>
-
-        <h2 id="project_experience">Project Experience</h2>
-        <hr>
-        <strong>Heartland Theater Company CRM-Like Program (Team of 6)</strong>
-        <br><strong>Project Objective:</strong> Develop a user-friendly interface to manage the customers of Heartland Theater Company.
-        <ul>
-            <li>Used Excel functions to fix excel data. Fixed Excel sheets were made into tables in Microsoft SQL Server.</li>
-            <li>Developed the front-end using ASPX pages: <a href="https://github.com/ConnorGIT5/Projects/blob/main/Front-end%20Cust%20Search.png">link to GitHub</a></li>
-            <li>Developed a method to query data in Visual Basic: <a href="https://github.com/ConnorGIT5/Projects/blob/main/SQL%20query%20vb%20Concat.png">link to GitHub</a></li>
-        </ul>
-        <br>
-        <strong>Sage 100 Backup Program </strong>
-        <br><strong>Project Objective:</strong> Create a daily and working backup for my company to restore from for disaster recovery.
-        <ul>
-            <li>Created a powershell script to save monthly and daily backing of the working Sage 100 directory.</li> 
-            <li>The daily backup directory stores backups only up to 30 days, and the monthly backup directory stores backups up to 4 months.</li>
-        </ul>
-
-        <h2 id="completed_certifications">Completed Certifications</h2>
-        <hr>
-        
-        <ul>
-            <li>Azure Fundamentals (AZ-900)</li>
-            <li>Currently Studying: Azure Administrator Associate (AZ-104)</li>
-            <li>Certified Scrum Master</li>
-            <li>Hubspot SEO</li>
-            <li>QuickBooks Online ProAdvisor</li>
-        </ul>
-        <!-- snooping around my code? -->
-        <h2 id="technical_skills">Technical Skills</h2>
-        <hr>
-
-        <ul>
-            <li>ASP.NET MVC / Razor Pages / EF CORE</li>
-            <li>SQL DDL, DML, DCL, TCL commands</li>
-            <li>Relational Database design using ERDPLUS.com</li>
-            <li>C++ Vectors, Arrays, OOP,  Vi, Unix</li>
-            <li>Sorting / Searching algorithms</li>
-            <li>Git and Github</li>
-            <li>Docker and Containerization</li>
-            <li>React and React Router</li>
-            <li>REST API’s and Insomnia</li>
-            <li>Excel, MS Office</li>
-        </ul>
 
     <footer>&copy Connor Rowe 2024</footer>
-
-
-</body>
+  </body>
 </html>
-
